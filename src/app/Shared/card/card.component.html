@@ -1,0 +1,27 @@
+<mat-card class="example-card">
+  <img mat-card-image [src]="product.imagePath" height="200px" />
+  <mat-card-title>{{ product.name }}{{ cartNumber }}</mat-card-title>
+  <mat-card-content
+    ><p>Sony Bravia W602D 32 inch LED television.</p>
+    <p class="price">BDT {{ product.price }}</p>
+  </mat-card-content>
+  <mat-card-actions fxLayoutAlign="center">
+    <button mat-mini-fab (click)="minusValue()">
+      <mat-icon>remove</mat-icon>
+    </button>
+    <input
+      type="text"
+      matInput
+      [value]="product.selectedQuantity"
+      height="100%"
+    />
+    <button mat-button mat-mini-fab (click)="plusValue()">
+      <mat-icon>add</mat-icon>
+    </button>
+  </mat-card-actions>
+  <mat-card-actions fxLayoutAlign="center">
+    <button mat-raised-button color="primary" (click)="onAddToCart(product)">
+      Add To Cart
+    </button>
+  </mat-card-actions>
+</mat-card>

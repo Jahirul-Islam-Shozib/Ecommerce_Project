@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+h2 {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 12px;
+}
+input {
+  width: 40px;
+  text-align: center;
+  /* background-color: grey; */
+}
+.mat-mini-fab {
+  background-color: cadetblue;
+}
+.price {
+  color: lightslategrey;
+  font-size: 16px;
+}

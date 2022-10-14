@@ -1,0 +1,21 @@
+.mat-card-title,
+p {
+  text-align: center;
+}
+.price {
+  color: lightslategrey;
+  font-size: 16px;
+}
+.mat-card {
+  /* margin: 20px; */
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input {
+  width: 40px;
+  text-align: center;
+  /* background-color: grey; */
+}
+.mat-mini-fab {
+  background-color: cadetblue;
+}

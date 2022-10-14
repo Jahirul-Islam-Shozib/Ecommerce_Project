@@ -1,0 +1,19 @@
+.mat-form-field {
+  width: 50%;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 12px;
+}
+li {
+  list-style: none;
+}
+.content {
+  padding: 16px;
+}
+/* .example-card {
+  width: 300px;
+} */

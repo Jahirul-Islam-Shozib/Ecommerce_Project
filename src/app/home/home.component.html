@@ -1,0 +1,22 @@
+<div>
+  <h2>SWUIE</h2>
+  <div fxFlex fxLayout fxLayoutAlign="center">
+    <mat-form-field appearance="outline">
+      <input type="text" matInput placeholder="Search for products..." />
+      <a href="/" fxFlex><mat-icon>search</mat-icon></a>
+    </mat-form-field>
+  </div>
+</div>
+
+<div class="content">
+  <div fxLayout="row warp" fxLayoutGap="20px grid">
+    <app-card
+      fxFlex="20%"
+      fxFlex.xs="100%"
+      fxFlex.sm="33%"
+      *ngFor="let item of productItems; let i=index"
+      [product]="item"
+      [index]="i"
+    ></app-card>
+  </div>
+</div>
